@@ -66,7 +66,7 @@ export default function Home() {
           </div>
 
           <div className=" mb-12 md:mx-auto mt-4">
-            <h1 className=" uppercase text-center text-base md:text-lg font-semibold">over cusomers feed backs</h1>
+            <h1 className=" uppercase text-center text-base md:text-lg font-semibold">our cusomers feed backs</h1>
             <Comments />
             <Comments />
             <Comments />
