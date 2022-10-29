@@ -5,33 +5,16 @@ import { BsInstagram } from "react-icons/bs";
 import { BsWhatsapp } from "react-icons/bs";
 import { BsFacebook } from "react-icons/bs";
 import Comments from "@components/Comments";
+import TopNavBar from "@components/TopNavbar";
 
 export default function Home() {
   return (
     <div>
       <title>Yowax.lk</title>
       <main className=" bg-gray-100">
-        <section className="min-h-screen py-5">
+        <section className="min-h-screen py-5 md:py-0">
           
-          <div>
-            <div className=" w-full h-6 top-0 left-0 ">
-              <h1 className=" text-2xl font-bold h-4 text-gray-700 hover:text-gray-900 flex justify-center md:mb-4">
-                Yowax.lk
-              </h1>
-            </div>
-
-            <div className="hidden sm:block">
-              <nav className="mt-4 flex justify-center ">
-                <ul className="flex items-center gap-8 ">
-                  <li className="hover:underline">Home</li>
-                  <li className="hover:underline"> Products</li>
-                  <li className="hover:underline">Shipping info</li>
-                  <li className="hover:underline">Contact us</li>
-                </ul>
-              </nav>
-            </div>
-          </div>
-
+          <TopNavBar/>
 
           <div className=" md:flex">
           <div className=" mt-6 md:ml-14 md:max-w-4xl">
@@ -65,8 +48,10 @@ export default function Home() {
             </div>
           </div>
 
-          <div className=" mb-12 md:mx-auto mt-4">
-            <h1 className=" uppercase text-center text-base md:text-lg font-semibold">our cusomers feed backs</h1>
+          <div className=" mb-12 md:mx-8 mt-4">
+            <div className=" h-12 bg-white flex justify-center items-center rounded-lg overflow-hidden shadow-2xl ">
+            <h1 className=" uppercase text-center text-base md:text-lg font-semibold "> comments </h1>
+            </div>          
             <Comments />
             <Comments />
             <Comments />
