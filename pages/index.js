@@ -1,12 +1,13 @@
 import Image from "next/image";
 import yowax_p1 from "public/yowax_p1.jpeg";
 import yowax_p2 from "public/yowax_p2.jpeg";
-import { BsInstagram } from "react-icons/bs";
 import { BsWhatsapp } from "react-icons/bs";
 import { BsFacebook } from "react-icons/bs";
+import { BsInstagram } from "react-icons/bs";
 import Comments from "@components/Comments";
 import TopNavBar from "@components/TopNavbar";
 import PhotoCard from "@components/PhotoCard";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -43,10 +44,25 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="md:hidden w-full h-12 bg-white fixed left-0 bottom-0 flex justify-center  text-2xl gap-4 pt-3 shadow-md">
-            <BsInstagram />
-            <BsFacebook />
-            <BsWhatsapp />
+          <div className="md:hidden w-full h-12 bg-white fixed justify-center bottom-0 flex  text-2xl gap-4 pt-3 shadow-md">
+            <Link
+              href={
+                "https://instagram.com/yohan_surf_shop?igshid=NTc4MTIwNjQ2YQ=="
+              }
+            >
+              <BsInstagram />
+            </Link>
+            <Link
+              href={
+                "https://www.facebook.com/profile.php?id=100066829083540&mibextid=LQQJ4d"
+              }
+            >
+              {" "}
+              <BsFacebook />
+            </Link>
+            <div className=" flex gap-2">
+              <BsWhatsapp /> <a className=" text-base"> +94 76 062 5116 </a>
+            </div>
           </div>
         </section>
       </main>

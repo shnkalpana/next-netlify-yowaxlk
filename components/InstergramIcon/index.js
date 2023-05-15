@@ -1,11 +1,12 @@
-import { FontAwesomeIcon } from "@fontawesome/react-fontawesome";
+import { BsInstagram } from "react-icons/bs";
+import React from "react";
+import Link from "next/link";
 
-const InstagramIcon = () => {
+const InstagramIcon = ({ instargramUrl }) => {
   return (
-    <FontAwesomeIcon
-      icon={faInstagram}
-      href="https://instagram.com/yohan_surf_shop?igshid=NTc4MTIwNjQ2YQ=="
-    />
+    <Link to={instargramUrl}>
+      <BsInstagram />
+    </Link>
   );
 };
 
