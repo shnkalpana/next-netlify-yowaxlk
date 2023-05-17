@@ -4,14 +4,14 @@ import Image from "next/image";
 
 export default function Comments() {
   return (
-    <div>
+    <div className="bg-[#537195] py-5">
       <title> Comments </title>
-      <main className="bg-[#537195] py-2">
+      <main>
         <TopNavBar />
-        <div className=" flex justify-center py-2 mb-0">
+        <div className=" flex justify-center py-24">
           <Image
             src={comments_01}
-            alt=" Annonymous comments"
+            alt="Annonymous comments"
             width={300}
             height={600}
           />
