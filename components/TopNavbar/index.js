@@ -22,7 +22,9 @@ const TopNavBar = () => (
                 </Link>
               </li>
               <li className="hover:underline">
-                <BsCart />
+                <Link href="/products">
+                  <BsCart />
+                </Link>
               </li>
             </ul>
           </nav>

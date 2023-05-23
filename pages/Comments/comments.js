@@ -5,21 +5,24 @@ import Link from "next/link";
 import { BsInstagram } from "react-icons/bs";
 import { BsFacebook } from "react-icons/bs";
 import { BsWhatsapp } from "react-icons/bs";
+import srf_img from "/public/surfing avatar.jpeg";
 
 export default function Comments() {
   return (
-    <div className="bg-[#537195]">
+    <div className="bg-[#537195] py-5">
       <title> Comments </title>
       <main className="">
-        <div className=" pt-2">
+        <div className="">
           <TopNavBar />
         </div>
 
         <div className=" flex justify-center ">
           <div className=" grid-cols-2">
-            <div className=" py-2 font-serif text-[#e9ecf0]">
-              {" "}
-              Annonymous comment{" "}
+            <div className=" flex py-2 font-serif text-[#e9ecf0]">
+              <div className=" w-5 rounded-md">
+                <Image src={srf_img} alt="avatar" />
+              </div>
+              <div>Annonymous comment</div>
             </div>
             <div>
               <Image
