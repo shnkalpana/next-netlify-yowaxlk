@@ -17,7 +17,7 @@ export default function Home() {
         <section className="min-h-screen md:py-0">
           <TopNavBar />
 
-          <div className=" md:flex">
+          <div className=" md:flex px-4">
             <div className=" mt-6 md:ml-14 md:max-w-4xl">
               <div className=" h-64 w-5/6 md:w-96 md:flex-shrink-0 md:h-96 ml-auto mr-auto relative ">
                 <PhotoCard />
@@ -29,7 +29,7 @@ export default function Home() {
                   </span>
                   <br />
 
-                  <span className=" text-gray-800">
+                  <span className="text-sm text-center text-[#e9ecf0]">
                     Yo Wax is the perfect surf wax for surfers in Sri Lanka who
                     are looking to add more power and stickiness to their
                     surfing experience. Whether you're a beginner just starting
