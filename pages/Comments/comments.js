@@ -9,26 +9,27 @@ import srf_img from "/public/surfing avatar.jpeg";
 
 export default function Comments() {
   return (
-    <div className="bg-[#537195] py-5">
+    <div className="bg-[#537195] h-screen">
       <title> Comments </title>
       <main className="">
         <div className="">
           <TopNavBar />
         </div>
 
+        <div className="px-4 text-[#e9ecf0] font-serif text-xl pt-2">
+          Customers feedbacks
+        </div>
+
         <div className=" flex justify-center ">
           <div className=" grid-cols-2">
             <div className=" flex py-2 font-serif text-[#e9ecf0]">
-              <div className=" w-5 rounded-md">
-                <Image src={srf_img} alt="avatar" />
-              </div>
               <div>Annonymous comment</div>
             </div>
             <div>
               <Image
                 src={comments_01}
                 alt="Annonymous comments"
-                className=" h-auto w-64 rounded-lg pb-64"
+                className=" h-auto w-64 rounded-xl"
               />
             </div>
           </div>

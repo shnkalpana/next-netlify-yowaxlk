@@ -14,7 +14,7 @@ export default function Home() {
     <div>
       <title>Yowax.lk</title>
       <main className=" bg-[#537195]">
-        <section className="min-h-screen py-5 md:py-0">
+        <section className="min-h-screen md:py-0">
           <TopNavBar />
 
           <div className=" md:flex">

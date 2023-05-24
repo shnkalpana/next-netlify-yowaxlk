@@ -14,7 +14,7 @@ const TopNavBar = () => (
             </h1>
           </div>
 
-          <nav className=" h-6 top-0 text-[#e9ecf0] ">
+          <nav className=" h-6 top-0 text-[#e9ecf0] mt-2">
             <ul className="flex justify-between gap-8 ">
               <li className="hover:underline">
                 <Link href="/Comments/comments">
@@ -30,7 +30,7 @@ const TopNavBar = () => (
           </nav>
         </div>
       </div>
-      <div className=" px-4 py-2 text-[#e9ecf0]">
+      <div className=" px-4 pb-2 text-[#e9ecf0]">
         <hr />
       </div>
     </div>
