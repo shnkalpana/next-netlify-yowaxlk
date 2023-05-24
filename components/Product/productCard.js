@@ -5,7 +5,7 @@ const ProductCard = ({ productName, productImage, description }) => {
   return (
     <div className=" grid-cols-3 border rounded-xl w-80 h-96 px-1">
       <img
-        className=" rounded-lg mt-3 flex mx-10"
+        className=" rounded-lg mt-3 flex justify-between"
         src={productImage}
         alt={productName}
         width={100}
