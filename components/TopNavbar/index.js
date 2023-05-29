@@ -18,12 +18,18 @@ const TopNavBar = () => (
             <ul className="flex justify-between gap-8 ">
               <li className="hover:underline">
                 <Link href="/Comments/comments">
-                  <BsHeart />
+                  <div className="md:hidden ">
+                    <BsHeart />
+                  </div>
+                  <div className="hidden md:block">Comments</div>
                 </Link>
               </li>
               <li className="hover:underline">
                 <Link href="/products">
-                  <BsCart />
+                  <div className=" md:hidden">
+                    <BsCart />
+                  </div>
+                  <div className=" hidden md:block">Products</div>
                 </Link>
               </li>
             </ul>
