@@ -19,8 +19,18 @@ export default function Home() {
 
           <div className=" md:flex px-4">
             <div className=" mt-6 md:ml-14 md:max-w-4xl">
-              <div className=" h-64 w-5/6 md:w-96 md:flex-shrink-0 md:h-96 ml-auto mr-auto relative ">
-                <PhotoCard />
+              <div className="md:flex items-center">
+                <div className=" h-64 w-5/6 md:w-96 md:flex-shrink-0 md:h-96 ml-auto mr-auto relative ">
+                  <PhotoCard />
+                </div>
+                <div className=" hidden md:block font-serif text-6xl font-bold text-center text-[#e9ecf0] relative ">
+                  <p>
+                    YOWAX <br />
+                    BEST WAX <br />
+                    FOR <br />
+                    YOUR BOARD
+                  </p>
+                </div>
               </div>
               <div className=" py-2 mt-4 md:mt-0 md:ml-6 ">
                 <p className=" text-gray-500 text-center text-xs md:text-lg md:text-left">
