@@ -54,7 +54,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="md:hidden w-full h-12 bg-white fixed justify-center bottom-0 flex  text-2xl gap-4 pt-3 shadow-md">
+          <div className=" w-full h-12 bg-white justify-center bottom-0 flex  text-2xl gap-4 pt-3 shadow-md">
             <Link
               href={
                 "https://instagram.com/yohan_surf_shop?igshid=NTc4MTIwNjQ2YQ=="

@@ -7,7 +7,7 @@ const TopNavBar = () => (
   <>
     <div className="bg-[#537195]">
       <div className="bg-[#537195] px-4">
-        <div className=" font-serif  md:h-24 flex justify-between md:pt-6 ">
+        <div className=" font-serif  md:h-16 flex justify-between md:pt-6 ">
           <div className=" h-6 top-0 left-0">
             <h1 className=" text-2xl font-bold h-4 text-[#e9ecf0] ">
               <Link href="/">Yowax.lk</Link>
@@ -36,7 +36,7 @@ const TopNavBar = () => (
           </nav>
         </div>
       </div>
-      <div className=" px-4 pb-2 text-[#e9ecf0]">
+      <div className=" px-4 pb-2  text-[#e9ecf0]">
         <hr />
       </div>
     </div>
