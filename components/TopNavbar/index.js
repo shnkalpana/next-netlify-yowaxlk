@@ -7,15 +7,20 @@ const TopNavBar = () => (
   <>
     <div className="bg-[#537195]">
       <div className="bg-[#537195] px-4">
-        <div className=" font-serif  md:h-16 flex justify-between md:pt-6 ">
+        <div className=" font-serif  md:h-16 flex justify-between md:pt-2 ">
           <div className=" h-6 top-0 left-0">
             <h1 className=" text-2xl font-bold h-4 text-[#e9ecf0] ">
               <Link href="/">Yowax.lk</Link>
             </h1>
           </div>
 
-          <nav className=" h-6 top-0 text-[#e9ecf0] mt-2">
+          <nav className=" h-2 top-0 text-[#e9ecf0] mt-2">
             <ul className="flex justify-between gap-8 ">
+              <li className="hover:underline">
+                <Link href="#footer" scroll={false}>
+                  <div className="hidden md:block">Contact Us</div>
+                </Link>
+              </li>
               <li className="hover:underline">
                 <Link href="/Comments/comments">
                   <div className="md:hidden ">

@@ -32,7 +32,7 @@ export default function Home() {
                   </p>
                 </div>
               </div>
-              <div className=" py-2 mt-4 md:mt-0 md:ml-6 ">
+              <div className=" pt-2 mt-4 md:mt-0 md:ml-6 ">
                 <p className=" text-gray-500 text-center text-xs md:text-lg md:text-left">
                   <span className=" text-lg font-bold text-[#e9ecf0] uppercase md:tracking-wide md:text-sm md:text-blue-900 md: drop-shadow-lg">
                     YOWAX BEST WAX FOR YOUR BOARD
@@ -54,7 +54,10 @@ export default function Home() {
             </div>
           </div>
 
-          <div className=" w-full h-12 bg-white justify-center bottom-0 flex  text-2xl gap-4 pt-3 shadow-md">
+          <div
+            id="footer"
+            className=" w-full h-12 bg-white justify-center bottom-0 flex  text-2xl gap-4 pt-3 shadow-md"
+          >
             <Link
               href={
                 "https://instagram.com/yohan_surf_shop?igshid=NTc4MTIwNjQ2YQ=="
